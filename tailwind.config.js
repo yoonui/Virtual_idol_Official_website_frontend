@@ -8,9 +8,10 @@ module.exports = {
       "custom-gray-light": "#5e6673",
 
       "custom-mint": "#00ADB5",
-      "custom-mint-drak": "#01868c",
+      "custom-mint-dark": "#01868c",
 
       "custom-white": "#EEEEEE",
+      "custom-white-dark": "#bdbdbd",
     },
     extend: {},
   },
