@@ -1,29 +1,29 @@
 const Header = () => {
   return (
-    <div className="w-[100%] bg-[#393E46] justify-center flex items-center">
+    <div className="w-[100%] bg-custom-gray justify-center flex items-center">
       <div className="w-[70%]">
-        <div className="text-center my-8"> 여기에 로고가 들어갑니다 </div>
+        <div className="my-8 text-center"> 여기에 로고가 들어갑니다 </div>
 
-        <div className="text-[#EEEEEE] font-bold text-2xl justify-between flex">
-          <button className="relative group p-4">
+        <div className="flex justify-between text-2xl font-bold text-custom-white">
+          <button className="relative p-4 group">
             <span>HOME</span>
-            <span className="absolute -bottom-0 left-0 w-0 h-2 bg-[#00ADB5] transition-all group-hover:w-full"></span>
+            <span className="absolute left-0 w-0 h-2 transition-all -bottom-0 bg-custom-mint group-hover:w-full"></span>
           </button>
-          <button className="relative group p-4">
+          <button className="relative p-4 group">
             <span>PROFILE</span>
-            <span className="absolute -bottom-0 left-0 w-0 h-2 bg-[#00ADB5] transition-all group-hover:w-full"></span>
+            <span className="absolute left-0 w-0 h-2 transition-all -bottom-0 bg-custom-mint group-hover:w-full"></span>
           </button>
-          <button className="relative group p-4">
+          <button className="relative p-4 group">
             <span>GALLERY</span>
-            <span className="absolute -bottom-0 left-0 w-0 h-2 bg-[#00ADB5] transition-all group-hover:w-full"></span>
+            <span className="absolute left-0 w-0 h-2 transition-all -bottom-0 bg-custom-mint group-hover:w-full"></span>
           </button>
-          <button className="relative group p-4">
+          <button className="relative p-4 group">
             <span>ALBUM</span>
-            <span className="absolute -bottom-0 left-0 w-0 h-2 bg-[#00ADB5] transition-all group-hover:w-full"></span>
+            <span className="absolute left-0 w-0 h-2 transition-all -bottom-0 bg-custom-mint group-hover:w-full"></span>
           </button>
-          <button className="relative group p-4">
+          <button className="relative p-4 group">
             <span>BOARD</span>
-            <span className="absolute -bottom-0 left-0 w-0 h-2 bg-[#00ADB5] transition-all group-hover:w-full"></span>
+            <span className="absolute left-0 w-0 h-2 transition-all -bottom-0 bg-custom-mint group-hover:w-full"></span>
           </button>
         </div>
       </div>
