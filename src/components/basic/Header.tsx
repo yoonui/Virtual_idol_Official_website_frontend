@@ -1,12 +1,12 @@
 const Header = () => {
   return (
-    <div className="w-[100%] bg-symbolic-color-black text-custom-white justify-center flex items-center">
+    <div className="w-[100%] bg-symbolic-color text-symbolic-color-black justify-center flex items-center">
       <div className="w-[70%]">
         <div className="flex justify-end my-4">
-          <button className="mr-4 font-bold hover:text-custom-white-dark">
+          <button className="mr-4 font-bold text-symbolic-color-black-light hover:text-symbolic-color-black">
             로그인
           </button>
-          <button className="px-2 py-1 font-bold border-2 rounded border-symbolic-color-blue text-symbolic-color-blue hover:border-symbolic-color-blue-dark hover:text-symbolic-color-blue-dark">
+          <button className="px-2 py-1 font-bold border-2 rounded border-symbolic-color-darkgray-light text-symbolic-color-darkgray-light hover:border-symbolic-color-darkgray hover:text-symbolic-color-darkgray">
             회원가입
           </button>
         </div>
